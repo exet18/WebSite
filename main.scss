@@ -1,0 +1,28 @@
+.main-services{
+  .service-container{
+    max-width: 1200px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    .more-info-text-block{
+      max-width: 994px;
+      padding-left: 50px;
+      padding-right: 50px;
+      .service-text{
+        font-weight: 800;
+        font-size: 36px;
+        text-align: center;
+        padding-top: 120px;
+        padding-bottom: 30px;
+      }
+      .service-information{
+        font-size: 24px;
+        font-weight: 400;
+        padding-bottom: 90px;
+        text-align: center;
+      }
+    }
+  }
+}
