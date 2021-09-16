@@ -1,0 +1,93 @@
+.header{
+  background: url("./source/header-image/background.png");
+  background-size: 100% 100%;
+  height: 754px;
+  .header-container{
+    max-width: 1800px;
+    width: 100%;
+    margin: 0 auto;
+    height: 500px;
+    .navbar{
+      display: flex;
+      justify-content: flex-end;
+      flex-direction: row;
+      align-items: center;
+      padding-top: 35px;
+      padding-right: 75px;
+      padding-bottom: 125px;
+      .nav-button-support{
+        font-weight: 700;
+        color: #FFF;
+        width: 91px;
+        height: 40px;
+        border: none;
+        border-radius: 5px;
+        background: #F84646;
+      }
+      .nav-button-support:hover{
+        background-color: #f62828;
+        cursor: pointer;
+      }
+    }
+    .nav-list{
+      display: flex;
+      flex-direction: row;
+      list-style-type: none;
+      a{
+        color: black;
+        text-decoration: none;
+        font-weight: 700;
+        padding-right: 40px;
+        :hover{
+          text-decoration: underline;
+        }
+      }
+    }
+    .header-information{
+      width: 740px;
+      padding-left: 75px;
+      .information-text{
+        font-size: 64px;
+        font-weight: 800;
+        padding-bottom: 20px;
+      }
+      .more-information-block{
+        font-size: 20px;
+        padding-bottom: 50px;
+      }
+      .information-register-block{
+        position: relative;
+      }
+      .information-input{
+        height: 73px;
+        width: 300px;
+        padding-right: 170px;
+        padding-left: 32px;
+        border: none;
+        outline: none;
+        background: #FFFFFF;
+        border-radius: 8px;
+        font-weight: 400;
+        color: rgba(0, 0, 0, 0.4);
+        font-size: 16px;
+      }
+      .information-button{
+        font-weight: 700;
+        width: 136px;
+        height: 61px;
+        color: #FFFFFF;
+        border: none;
+        font-size: 16px;
+        background: #F84646;
+        border-radius: 8px;
+        position: absolute;
+        top: 6px;
+        left: 359px;
+      }
+      .information-button:hover{
+        background-color: #f62828;
+        cursor: pointer;
+      }
+    }
+  }
+}
