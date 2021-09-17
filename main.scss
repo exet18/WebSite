@@ -1,12 +1,20 @@
+@mixin standard-container($width: 1200px){
+  max-width: $width;
+  margin: 0 auto;
+  width: 100%;
+}
+%ball-standard{
+  position: absolute;
+  width: 45px;
+  height: 45px;
+}
 .main-services{
   .service-container{
-    max-width: 1200px;
-    margin: 0 auto;
-    width: 100%;
+    @include standard-container();
     display: flex;
     flex-direction: column;
     align-items: center;
-    .more-info-text-block{
+    .service-info-block{
       max-width: 994px;
       padding-left: 50px;
       padding-right: 50px;
@@ -16,12 +24,75 @@
         text-align: center;
         padding-top: 120px;
         padding-bottom: 30px;
+        line-height: 49px;
       }
       .service-information{
         font-size: 24px;
         font-weight: 400;
         padding-bottom: 90px;
         text-align: center;
+        line-height: 39px;
+      }
+    }
+    .service-wrapper{
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      padding-bottom: 80px;
+      .service-block{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 83px;
+        .block-image{
+          padding-bottom: 19px;
+          .block-figure{
+            position: relative;
+            width: 76px;
+            height: 76px;
+          }
+          .pink-ball{
+            @extend %ball-standard;
+            margin-left: 36px;
+          }
+          .purple-ball{
+            @extend %ball-standard;
+            margin-left: -10px;
+            margin-top: 6px;
+          }
+          .aqua-ball{
+            @extend %ball-standard;
+            margin-top: 5px;
+            margin-left: 45px;
+          }
+          .blue-ball{
+            @extend %ball-standard;
+            margin-top: 5px;
+          }
+          .red-ball{
+            @extend %ball-standard;
+            margin-left: 38px;
+            margin-top: -2px;
+          }
+          .yellow-ball{
+            @extend %ball-standard;
+            margin-left: 20px;
+            margin-top: -8px;
+          }
+        }
+        .service-block-text{
+          font-weight: 800;
+          font-size: 24px;
+          padding-bottom: 10px;
+          line-height: 33px;
+        }
+        .service-block-information{
+          text-align: center;
+          max-width: 298px;
+          font-size: 18px;
+          font-weight: 400;
+          line-height: 28px;
+        }
       }
     }
   }

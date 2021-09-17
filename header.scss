@@ -23,6 +23,7 @@
         border: none;
         border-radius: 5px;
         background: #F84646;
+        line-height: 20px;
       }
       .nav-button-support:hover{
         background-color: #f62828;
@@ -38,6 +39,7 @@
         text-decoration: none;
         font-weight: 700;
         padding-right: 40px;
+        line-height: 20px;
         :hover{
           text-decoration: underline;
         }
@@ -50,10 +52,12 @@
         font-size: 64px;
         font-weight: 800;
         padding-bottom: 20px;
+        line-height: 82px;
       }
       .more-information-block{
         font-size: 20px;
         padding-bottom: 50px;
+        line-height: 36px;
       }
       .information-register-block{
         position: relative;

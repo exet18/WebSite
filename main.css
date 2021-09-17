@@ -1,3 +1,40 @@
-
+.main-services .service-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-services .service-container .service-info-block {
+  max-width: 994px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.main-services .service-container .service-info-block .service-text {
+  font-weight: 800;
+  font-size: 36px;
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+.main-services .service-container .service-info-block .service-information {
+  font-size: 24px;
+  font-weight: 400;
+  padding-bottom: 90px;
+  text-align: center;
+}
+.main-services .service-container .wrapper {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.main-services .service-container .wrapper .pink {
+  position: relative;
+}
+.main-services .service-container .wrapper .pink .pink-ball {
+  position: absolute;
+  margin-left: 500px;
+}
 
 /*# sourceMappingURL=main.css.map */
