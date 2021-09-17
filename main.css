@@ -88,4 +88,63 @@
   line-height: 28px;
 }
 
+.main-company-proposals {
+  background: url("./source/main-image/background-prop.png");
+  background-size: 100% 100%;
+}
+.main-company-proposals .proposals-image {
+  background: #F84646;
+  mix-blend-mode: lighten;
+  height: 376px;
+}
+.main-company-proposals .proposals-image .proposals-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-text {
+  text-align: center;
+  padding-top: 68px;
+  padding-bottom: 10px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  color: #FFFFFF;
+  font-feature-settings: "liga" off;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-information {
+  text-align: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  line-height: 32px;
+  font-weight: 400;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list {
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  align-items: center;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list li {
+  text-align: left;
+  font-size: 18px;
+  line-height: 31px;
+  font-feature-settings: "liga" off;
+  color: #FFFFFF;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding-right: 35px;
+  padding-left: 10px;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .list-arrow img {
+  width: 32px;
+  height: 32px;
+}
+
 /*# sourceMappingURL=main.css.map */
