@@ -1,9 +1,10 @@
-@import "main";
 .footer{
   background: #F8464A;
   height: 536px;
   .footer-container{
-    @include standard-container($width: 1300px);
+    margin: 0 auto;
+    max-width: 1300px;
+    width: 100%;
     .footer-link{
       padding-left: 50px;
       padding-top: 80px;
