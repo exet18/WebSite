@@ -326,6 +326,61 @@
   border-radius: 8px;
 }
 
+.main-links {
+  height: 603px;
+  background-color: #F4F5F7;
+}
+.main-links .links-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.main-links .links-container .link-text {
+  padding-top: 59px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 64px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191F;
+}
+.main-links .links-container .link-disc {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  font-feature-settings: "salt" on, "liga" off;
+  color: #18191F;
+  padding-bottom: 48px;
+}
+.main-links .links-container .link-cards {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-links .links-container .link-cards div {
+  display: block;
+}
+.main-links .links-container .link-cards div .card {
+  margin-bottom: 24px;
+  margin-right: 24px;
+  width: 170px;
+  height: 96px;
+  background: #FFFFFF;
+  box-shadow: 0px 30px 40px rgba(212, 217, 232, 0.2);
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-links .links-container .link-cards div .card p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 32px;
+  color: #F84646;
+  padding-right: 10px;
+}
+
 body {
   padding: 0;
   margin: 0;
