@@ -283,4 +283,56 @@
   padding-right: 10px;
 }
 
+.main-contact-us .contact-us-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 100%;
+}
+.main-contact-us .contact-us-container .users-block {
+  padding-top: 160px;
+  padding-bottom: 37px;
+  display: flex;
+  justify-content: center;
+}
+.main-contact-us .contact-us-container .users-block .contact-ball {
+  position: absolute;
+  margin-left: 23px;
+  margin-top: 7px;
+}
+.main-contact-us .contact-us-container .users-block .users {
+  position: relative;
+}
+.main-contact-us .contact-us-container .contact-us-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.main-contact-us .contact-us-container .contact-us-info .contact-us-text {
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 20px;
+}
+.main-contact-us .contact-us-container .contact-us-info .contact-us-more {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 32px;
+  text-align: center;
+  color: #000000;
+  padding-bottom: 30px;
+}
+.main-contact-us .contact-us-container .contact-us-info .contact-us-button {
+  width: 204px;
+  height: 70px;
+  background: #F84646;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 20px;
+  color: #FFFFFF;
+  border: none;
+}
+
 /*# sourceMappingURL=main.css.map */
