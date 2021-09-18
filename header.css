@@ -38,9 +38,10 @@
   list-style-type: none;
 }
 .header .header-container .nav-list a {
+  font-size: 14px;
   color: black;
   text-decoration: none;
-  font-weight: 700;
+  font-weight: bold;
   padding-right: 40px;
   line-height: 20px;
 }

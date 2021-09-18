@@ -1,0 +1,148 @@
+@media only screen and (max-width: 1044px) {
+  .header {
+    height: 647px;
+  }
+  .header .header-container {
+    max-width: 984px;
+  }
+  .header .header-container .navbar {
+    padding-right: 20px;
+    padding-bottom: 86px;
+  }
+  .header .header-container .navbar .nav-list a {
+    font-weight: 800;
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header .header-container .navbar .nav-button-support {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .header .header-container .header-information {
+    max-width: 700px;
+    width: 100%;
+    padding-left: 64px;
+  }
+  .header .header-container .header-information .information-text {
+    font-size: 56px;
+    line-height: 73px;
+  }
+  .header .header-container .header-information .more-information-block {
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    max-width: 565px;
+  }
+  .header .header-container .header-information .information-register-block .information-input {
+    height: 73px;
+    width: 220px;
+  }
+  .header .header-container .header-information .information-register-block .information-button {
+    left: 280px;
+  }
+
+  .main-services .service-container {
+    max-width: 984px;
+  }
+  .main-services .service-container .service-info-block {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+  .main-services .service-container .service-info-block .service-text {
+    font-size: 36px;
+    line-height: 49px;
+  }
+  .main-services .service-container .service-info-block .service-information {
+    font-size: 24px;
+    line-height: 39px;
+  }
+  .main-services .service-container .service-wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .main-company-proposals .proposals-image {
+    height: 300px;
+  }
+  .main-company-proposals .proposals-image .proposals-container {
+    max-width: 950px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-text {
+    padding-top: 38px;
+    font-size: 48px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: "liga" off;
+    color: #FFFFFF;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
+    font-size: 14px;
+    line-height: 21px;
+    font-feature-settings: "liga" off;
+  }
+
+  .testing-block .testing-container {
+    max-width: 950px;
+  }
+  .testing-block .testing-container .first-testing-block img {
+    width: 424px;
+    height: 404px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info .testing-info-text {
+    max-width: 515px;
+    font-size: 58px;
+    line-height: 59px;
+    color: #2E2E2E;
+    padding-bottom: 20px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info .testing-more-info {
+    max-width: 428px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #808080;
+    padding-bottom: 46px;
+  }
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-info-text {
+    max-width: 424px;
+    font-size: 58px;
+    line-height: 59px;
+    color: #2E2E2E;
+    padding-bottom: 20px;
+  }
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
+    max-width: 428px;
+    font-size: 14px;
+    line-height: 28px;
+    color: #808080;
+    padding-bottom: 46px;
+  }
+  .testing-block .testing-container .second-testing-block .testing-first-image {
+    display: none;
+  }
+  .testing-block .testing-container .second-testing-block .testing-second-image {
+    display: block;
+    width: 424px;
+    height: 404px;
+  }
+
+  .main-links .links-container {
+    max-width: 984px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 20px;
+  }
+
+  .footer .footer-container .footer-link .footer-column-link {
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 1067px) {
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
+    padding-bottom: 48px;
+  }
+}
+
+/*# sourceMappingURL=tablet_adaptation.css.map */

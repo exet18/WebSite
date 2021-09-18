@@ -98,7 +98,7 @@
   height: 376px;
 }
 .main-company-proposals .proposals-image .proposals-container {
-  max-width: 1100px;
+  max-width: 1200px;
   margin: 0 auto;
   width: 100%;
 }
@@ -130,15 +130,33 @@
   align-items: center;
   margin: 0 auto;
 }
-.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list p {
-  width: 199px;
-  color: white;
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div {
+  display: flex;
+  align-items: center;
 }
-.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .first-item {
-  width: 160px;
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
+  box-sizing: unset;
+  font-size: 18px;
+  line-height: 31px;
+  font-feature-settings: "liga" off;
+  color: #FFFFFF;
+  padding-left: 40px;
 }
-.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list img {
-  padding-right: 40px;
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div img {
+  padding-left: 30px;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .first-list-block p {
+  max-width: 146px;
+  width: 100%;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .second-list-block p {
+  max-width: 199px;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .third-list-block p {
+  max-width: 181px;
+}
+.main-company-proposals .proposals-image .proposals-container .proposals-list .section-list .fourth-list-block p {
+  max-width: 182px;
 }
 
 .testing-block {
@@ -194,6 +212,12 @@
   justify-content: space-between;
 }
 .testing-block .testing-container .second-testing-block img {
+  padding-left: 20px;
+}
+.testing-block .testing-container .second-testing-block .testing-second-image {
+  display: none;
+}
+.testing-block .testing-container .second-testing-block .testing-first-image {
   padding-left: 20px;
   width: 504px;
   height: 480px;
