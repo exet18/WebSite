@@ -644,7 +644,7 @@
   }
   .testing-block .testing-container .second-testing-block .testing-second-image {
     display: block;
-    width: 424px;
+    max-width: 424px;
     height: 404px;
   }
 
@@ -653,6 +653,10 @@
   }
   .main-links .links-container .link-cards {
     padding-left: 20px;
+  }
+
+  .main-contact-us .contact-us-container {
+    max-width: 984px;
   }
 
   .footer .footer-container .footer-link .footer-column-link {
@@ -664,6 +668,116 @@
     padding-bottom: 48px;
   }
 }
+@media screen and (max-width: 988px) {
+  .main-links .links-container {
+    max-width: 860px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 20px;
+  }
+  .main-links .links-container .link-cards div .card {
+    width: 140px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 937px) {
+  .main-company-proposals {
+    background-size: 100% 100%;
+  }
+  .main-company-proposals .proposals-image {
+    height: 750px;
+  }
+  .main-company-proposals .proposals-image .proposals-container {
+    max-width: 650px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list {
+    flex-direction: column;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
+    padding-left: 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+    max-width: 250px !important;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div img {
+    padding-left: 0;
+    padding-right: 50px;
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 863px) {
+  .main-links {
+    height: 924px;
+  }
+  .main-links .links-container {
+    max-width: 500px;
+  }
+  .main-links .links-container .link-text {
+    padding-top: 40px;
+  }
+  .main-links .links-container .link-disc {
+    padding-bottom: 40px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 0;
+    flex-direction: column;
+  }
+  .main-links .links-container .link-cards div .card {
+    width: 170px;
+    height: 96px;
+  }
+  .main-links .links-container .link-cards .fourth-column {
+    display: none;
+  }
+  .main-links .links-container .link-cards .fifth-column {
+    display: none;
+  }
+}
+.burger-menu {
+  display: none;
+  cursor: pointer;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #333;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.burger-block {
+  background-color: black;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
 body {
   padding: 0;
   margin: 0;

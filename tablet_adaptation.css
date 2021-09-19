@@ -124,7 +124,7 @@
   }
   .testing-block .testing-container .second-testing-block .testing-second-image {
     display: block;
-    width: 424px;
+    max-width: 424px;
     height: 404px;
   }
 
@@ -135,6 +135,10 @@
     padding-left: 20px;
   }
 
+  .main-contact-us .contact-us-container {
+    max-width: 984px;
+  }
+
   .footer .footer-container .footer-link .footer-column-link {
     padding-left: 15px;
   }
@@ -142,6 +146,77 @@
 @media screen and (max-width: 1067px) {
   .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
     padding-bottom: 48px;
+  }
+}
+@media screen and (max-width: 988px) {
+  .main-links .links-container {
+    max-width: 860px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 20px;
+  }
+  .main-links .links-container .link-cards div .card {
+    width: 140px;
+    height: 80px;
+  }
+}
+@media screen and (max-width: 937px) {
+  .main-company-proposals {
+    background-size: 100% 100%;
+  }
+  .main-company-proposals .proposals-image {
+    height: 750px;
+  }
+  .main-company-proposals .proposals-image .proposals-container {
+    max-width: 650px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list {
+    flex-direction: column;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
+    padding-left: 0;
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 50px;
+    max-width: 250px !important;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div img {
+    padding-left: 0;
+    padding-right: 50px;
+    transform: rotate(90deg);
+  }
+}
+@media screen and (max-width: 863px) {
+  .main-links {
+    height: 924px;
+  }
+  .main-links .links-container {
+    max-width: 500px;
+  }
+  .main-links .links-container .link-text {
+    padding-top: 40px;
+  }
+  .main-links .links-container .link-disc {
+    padding-bottom: 40px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 0;
+    flex-direction: column;
+  }
+  .main-links .links-container .link-cards div .card {
+    width: 170px;
+    height: 96px;
+  }
+  .main-links .links-container .link-cards .fourth-column {
+    display: none;
+  }
+  .main-links .links-container .link-cards .fifth-column {
+    display: none;
   }
 }
 
