@@ -518,6 +518,23 @@
   padding-right: 50px;
 }
 
+@media screen and (max-width: 1067px) {
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
+    padding-bottom: 48px;
+  }
+}
+@media screen and (max-width: 988px) {
+  .main-links .links-container {
+    max-width: 860px;
+  }
+  .main-links .links-container .link-cards {
+    padding-left: 20px;
+  }
+  .main-links .links-container .link-cards div .card {
+    width: 140px;
+    height: 80px;
+  }
+}
 @media only screen and (max-width: 1044px) {
   .header {
     height: 647px;
@@ -661,23 +678,6 @@
 
   .footer .footer-container .footer-link .footer-column-link {
     padding-left: 15px;
-  }
-}
-@media screen and (max-width: 1067px) {
-  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
-    padding-bottom: 48px;
-  }
-}
-@media screen and (max-width: 988px) {
-  .main-links .links-container {
-    max-width: 860px;
-  }
-  .main-links .links-container .link-cards {
-    padding-left: 20px;
-  }
-  .main-links .links-container .link-cards div .card {
-    width: 140px;
-    height: 80px;
   }
 }
 @media screen and (max-width: 937px) {
@@ -924,6 +924,192 @@
   display: block;
 }
 
+@media screen and (max-width: 616px) {
+  .header {
+    height: 601px;
+  }
+  .header .header-container {
+    max-width: 570px;
+  }
+  .header .header-container .navbar {
+    padding-bottom: 62px;
+  }
+  .header .header-container .header-information {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .header .header-container .header-information .information-text {
+    text-align: center;
+    font-size: 42px;
+    line-height: 57px;
+    max-width: 335px;
+    font-weight: 800;
+  }
+  .header .header-container .header-information .more-information-block {
+    font-size: 12px;
+    max-width: 335px;
+    text-align: center;
+  }
+
+  .main-block .main-services .service-container {
+    max-width: 570px;
+  }
+  .main-block .main-services .service-container .service-info-block .service-text {
+    font-size: 24px;
+    line-height: 33px;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 15px;
+  }
+  .main-block .main-services .service-container .service-info-block .service-information {
+    font-size: 12px;
+    line-height: 22px;
+    max-width: 334px;
+    text-align: center;
+  }
+  .main-block .main-services .service-container .service-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .main-company-proposals .proposals-image {
+    height: 860px;
+  }
+  .main-company-proposals .proposals-image .proposals-container {
+    max-width: 570px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-text {
+    font-size: 36px;
+    line-height: 47px;
+    padding-top: 50px;
+    padding-bottom: 9px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-information {
+    font-size: 14px;
+    line-height: 32px;
+    padding-bottom: 55px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
+    font-size: 18px;
+    line-height: 25px;
+    padding-bottom: 70px;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div img {
+    padding-right: 70px;
+  }
+
+  .testing-block {
+    padding-top: 90px;
+  }
+  .testing-block .testing-container {
+    max-width: 570px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info .testing-info-text {
+    max-width: 335px;
+    font-size: 36px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info .testing-more-info {
+    font-size: 14px;
+    max-width: 336px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info .testing-button {
+    max-width: 338px;
+    height: 48px;
+  }
+  .testing-block .testing-container .first-testing-block img {
+    max-width: 335px;
+    height: 312px;
+    padding-right: 0;
+  }
+  .testing-block .testing-container .second-testing-block {
+    padding-bottom: 79px;
+  }
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-info-text {
+    max-width: 335px;
+    font-size: 36px;
+  }
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
+    font-size: 14px;
+    max-width: 336px;
+  }
+  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-button {
+    max-width: 338px;
+    height: 48px;
+    width: 100%;
+  }
+  .testing-block .testing-container .second-testing-block .testing-second-image {
+    max-width: 335px;
+    height: 312px;
+    padding-left: 0;
+  }
+
+  .main-links .links-container {
+    max-width: 570px;
+  }
+  .main-links .links-container .link-text {
+    font-size: 36px;
+    line-height: 41px;
+  }
+  .main-links .links-container .link-disc {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 32px;
+  }
+
+  .main-contact-us .contact-us-container {
+    max-width: 570px;
+  }
+  .main-contact-us .contact-us-container .users-block {
+    padding-top: 94px;
+  }
+  .main-contact-us .contact-us-container .contact-us-info {
+    padding-bottom: 82px;
+  }
+  .main-contact-us .contact-us-container .contact-us-info .contact-us-text {
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 32px;
+  }
+  .main-contact-us .contact-us-container .contact-us-info .contact-us-more {
+    max-width: 335px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 25px;
+  }
+  .main-contact-us .contact-us-container .contact-us-info .contact-us-button {
+    width: 124px;
+    height: 42px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  .footer .footer-container {
+    max-width: 570px;
+  }
+  .footer .footer-container .footer-link {
+    grid-template-columns: 1fr;
+  }
+  .footer .footer-container .footer-link .footer-column-link p {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .footer .footer-container .copyright-social-links {
+    padding-bottom: 77px;
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 65px;
+  }
+  .footer .footer-container .copyright-social-links .social-links {
+    padding-bottom: 70px;
+  }
+  .footer .footer-container .copyright-social-links .copyright {
+    order: 2;
+  }
+}
 body {
   padding: 0;
   margin: 0;
