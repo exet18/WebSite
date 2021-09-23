@@ -1,28 +1,26 @@
 .header {
-  background: url("./source/header-image/background.png");
-  background-size: 100% 100%;
-  height: 754px;
+  background: url("./source/header-image/background.png") center center;
+  background-size: cover;
 }
 .header .header-container {
-  max-width: 1800px;
+  max-width: 1256px;
   width: 100%;
   margin: 0 auto;
-  height: 500px;
+  padding: 0 30px;
 }
 .header .header-container .navbar {
   display: flex;
   justify-content: flex-end;
-  flex-direction: row;
   align-items: center;
   padding-top: 35px;
-  padding-right: 75px;
   padding-bottom: 125px;
 }
 .header .header-container .navbar .nav-button-support {
   font-weight: 700;
   color: #FFF;
-  width: 91px;
-  height: 40px;
+  max-width: 91px;
+  padding: 10px 0;
+  width: 100%;
   border: none;
   border-radius: 5px;
   background: #F84646;
@@ -34,7 +32,6 @@
 }
 .header .header-container .nav-list {
   display: flex;
-  flex-direction: row;
   list-style-type: none;
 }
 .header .header-container .nav-list a {
@@ -49,8 +46,7 @@
   text-decoration: underline;
 }
 .header .header-container .header-information {
-  width: 740px;
-  padding-left: 75px;
+  max-width: 665px;
 }
 .header .header-container .header-information .information-text {
   font-size: 64px;
@@ -65,12 +61,12 @@
 }
 .header .header-container .header-information .information-register-block {
   position: relative;
+  padding-bottom: 140px;
 }
 .header .header-container .header-information .information-input {
-  height: 73px;
-  width: 300px;
-  padding-right: 170px;
-  padding-left: 32px;
+  max-width: 300px;
+  width: 100%;
+  padding: 25px 176px 30px 25px;
   border: none;
   outline: none;
   background: #FFFFFF;
@@ -81,8 +77,9 @@
 }
 .header .header-container .header-information .information-button {
   font-weight: 700;
-  width: 136px;
-  height: 61px;
+  max-width: 136px;
+  width: 100%;
+  padding: 21px 0;
   color: #FFFFFF;
   border: none;
   font-size: 16px;

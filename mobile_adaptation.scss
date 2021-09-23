@@ -1,7 +1,6 @@
 $mobile-container-width: 570px;
 @media screen and (max-width: 616px){
   .header{
-    height: 601px;
     .header-container{
       max-width: $mobile-container-width;
       .navbar{
@@ -23,6 +22,9 @@ $mobile-container-width: 570px;
           font-size: 12px;
           max-width: 335px;
           text-align: center;
+        }
+        .information-register-block{
+          padding-bottom: 84px;
         }
       }
     }
@@ -54,7 +56,6 @@ $mobile-container-width: 570px;
   }
   .main-company-proposals{
     .proposals-image{
-      height: 860px;
       .proposals-container{
         max-width: $mobile-container-width;
         .proposals-text{
@@ -66,7 +67,7 @@ $mobile-container-width: 570px;
         .proposals-information{
           font-size: 14px;
           line-height: 32px;
-          padding-bottom: 55px;
+          padding-bottom: 40px;
         }
         .proposals-list{
           .section-list{
@@ -169,11 +170,12 @@ $mobile-container-width: 570px;
           line-height: 25px;
         }
         .contact-us-button{
-          width: 124px;
-          height: 42px;
+          max-width: 124px;
+          width: 100%;
           font-weight: 600;
           font-size: 16px;
           line-height: 20px;
+          padding: 11px 0;
         }
       }
     }
@@ -196,7 +198,6 @@ $mobile-container-width: 570px;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        padding-left: 65px;
         .social-links{
           padding-bottom: 70px;
         }

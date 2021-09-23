@@ -1,29 +1,9 @@
-@media screen and (max-width: 1067px) {
-  .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-more-info {
-    padding-bottom: 48px;
-  }
-}
-@media screen and (max-width: 988px) {
-  .main-links .links-container {
-    max-width: 860px;
-  }
-  .main-links .links-container .link-cards {
-    padding-left: 20px;
-  }
-  .main-links .links-container .link-cards div .card {
-    width: 140px;
-    height: 80px;
-  }
-}
-@media only screen and (max-width: 1044px) {
-  .header {
-    height: 647px;
-  }
+@media only screen and (max-width: 1024px) {
   .header .header-container {
-    max-width: 984px;
+    max-width: 916px;
+    box-sizing: border-box;
   }
   .header .header-container .navbar {
-    padding-right: 20px;
     padding-bottom: 86px;
   }
   .header .header-container .navbar .nav-list a {
@@ -36,13 +16,13 @@
     line-height: 20px;
   }
   .header .header-container .header-information {
-    max-width: 700px;
+    max-width: 665px;
     width: 100%;
-    padding-left: 64px;
   }
   .header .header-container .header-information .information-text {
-    font-size: 56px;
+    font-size: 57px;
     line-height: 73px;
+    font-weight: 800;
   }
   .header .header-container .header-information .more-information-block {
     font-size: 16px;
@@ -51,19 +31,14 @@
     max-width: 565px;
   }
   .header .header-container .header-information .information-register-block .information-input {
-    height: 73px;
-    width: 220px;
+    max-width: 220px;
   }
   .header .header-container .header-information .information-register-block .information-button {
-    left: 280px;
+    left: 277px;
   }
 
   .main-services .service-container {
-    max-width: 984px;
-  }
-  .main-services .service-container .service-info-block {
-    padding-left: 60px;
-    padding-right: 60px;
+    max-width: 916px;
   }
   .main-services .service-container .service-info-block .service-text {
     font-size: 36px;
@@ -72,6 +47,7 @@
   .main-services .service-container .service-info-block .service-information {
     font-size: 24px;
     line-height: 39px;
+    text-align: center;
   }
   .main-services .service-container .service-wrapper {
     grid-template-columns: 1fr 1fr;
@@ -81,7 +57,7 @@
     height: 300px;
   }
   .main-company-proposals .proposals-image .proposals-container {
-    max-width: 950px;
+    max-width: 1004px;
   }
   .main-company-proposals .proposals-image .proposals-container .proposals-text {
     padding-top: 38px;
@@ -91,14 +67,17 @@
     font-feature-settings: "liga" off;
     color: #FFFFFF;
   }
-  .main-company-proposals .proposals-image .proposals-container .proposals-list {
-    padding-left: 20px;
-    padding-right: 20px;
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list {
+    justify-content: space-between;
   }
   .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div p {
     font-size: 14px;
     line-height: 21px;
     font-feature-settings: "liga" off;
+  }
+  .main-company-proposals .proposals-image .proposals-container .proposals-list .section-list div img {
+    padding-left: 0;
+    padding-right: 10px;
   }
 
   .testing-block .testing-container {
@@ -146,14 +125,14 @@
   }
 
   .main-links .links-container {
-    max-width: 984px;
+    max-width: 916px;
   }
   .main-links .links-container .link-cards {
     padding-left: 20px;
   }
 
   .main-contact-us .contact-us-container {
-    max-width: 984px;
+    max-width: 916px;
   }
 
   .footer .footer-container .footer-link .footer-column-link {
