@@ -35,7 +35,6 @@
   }
   .header .header-container .header-information .information-register-block .information-button {
     right: 0;
-    top: 4px;
   }
 
   .main-block .main-services .service-container {
@@ -103,11 +102,9 @@
   }
   .testing-block .testing-container .first-testing-block .first-block-info .testing-button {
     max-width: 338px;
-    height: 48px;
   }
   .testing-block .testing-container .first-testing-block img {
     max-width: 335px;
-    height: 312px;
     padding-right: 0;
   }
   .testing-block .testing-container .second-testing-block {
@@ -123,12 +120,10 @@
   }
   .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-button {
     max-width: 338px;
-    height: 48px;
     width: 100%;
   }
   .testing-block .testing-container .second-testing-block .testing-second-image {
     max-width: 335px;
-    height: 312px;
     padding: 0;
   }
 

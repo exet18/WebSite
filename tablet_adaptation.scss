@@ -141,8 +141,7 @@ $container-width: 916px;
 
       .first-testing-block {
         img {
-          width: 424px;
-          height: 404px;
+          max-width: 424px;
         }
 
         .first-block-info {
@@ -193,7 +192,6 @@ $container-width: 916px;
         .testing-second-image {
           display: block;
           max-width: 424px;
-          height: 404px;
           padding-right: 30px;
         }
       }

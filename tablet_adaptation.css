@@ -97,8 +97,7 @@
     max-width: 964px;
   }
   .testing-block .testing-container .first-testing-block img {
-    width: 424px;
-    height: 404px;
+    max-width: 424px;
   }
   .testing-block .testing-container .first-testing-block .first-block-info {
     max-width: 515px;
@@ -139,7 +138,6 @@
   .testing-block .testing-container .second-testing-block .testing-second-image {
     display: block;
     max-width: 424px;
-    height: 404px;
     padding-right: 30px;
   }
 
