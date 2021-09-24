@@ -5,20 +5,23 @@
 @use "mobile_adaptation";
 @use "burger-menu";
 
-body{
+body {
   padding: 0;
   margin: 0;
   font-family: 'Manrope', sans-serif;
 }
-div, p, a, img, form, button{
+
+div, p, a, img, form, button {
   box-sizing: border-box;
   margin: 0;
 }
-ul,li,input{
+
+ul, li, input {
   margin: 0;
   padding: 0;
 }
-h1,h2{
+
+h1, h2 {
   margin: 0;
   padding: 0;
 }

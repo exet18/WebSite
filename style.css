@@ -195,7 +195,7 @@
   max-width: 1256px;
   margin: 0 auto;
   width: 100%;
-  padding: 0 30px;
+  padding: 0 30px 50px 30px;
 }
 .main-company-proposals .proposals-image .proposals-container .proposals-text {
   text-align: center;
@@ -286,8 +286,8 @@
 }
 .testing-block .testing-container .first-testing-block .first-block-info .testing-button {
   max-width: 160px;
-  padding: 0 59px;
-  height: 48px;
+  width: 100%;
+  padding: 11px 0;
   border: none;
   font-weight: 600;
   font-size: 14px;
@@ -326,8 +326,9 @@
   margin: 0;
 }
 .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-button {
-  width: 160px;
-  height: 48px;
+  max-width: 160px;
+  width: 100%;
+  padding: 11px 0;
   border: none;
   font-weight: 600;
   font-size: 14px;
@@ -505,6 +506,9 @@
   align-items: center;
   padding-right: 50px;
 }
+.footer .footer-container .copyright-social-links .social-links a {
+  padding-right: 20px;
+}
 
 @media screen and (max-width: 988px) {
   .main-links .links-container {
@@ -556,7 +560,8 @@
     max-width: 220px;
   }
   .header .header-container .header-information .information-register-block .information-button {
-    left: 277px;
+    left: 280px;
+    top: 8px;
   }
 
   .main-services .service-container {
@@ -577,6 +582,7 @@
 
   .main-company-proposals .proposals-image .proposals-container {
     max-width: 1004px;
+    padding-bottom: 50px;
   }
   .main-company-proposals .proposals-image .proposals-container .proposals-text {
     padding-top: 38px;
@@ -621,6 +627,9 @@
     line-height: 28px;
     color: #808080;
     padding-bottom: 46px;
+  }
+  .testing-block .testing-container .second-testing-block {
+    padding-bottom: 120px;
   }
   .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-info-text {
     max-width: 424px;
@@ -773,6 +782,7 @@
     flex-direction: column;
     align-items: center;
     order: 2;
+    padding-right: unset;
   }
   .testing-block .testing-container .first-testing-block .first-block-info .testing-info-text {
     padding-top: 30px;
@@ -789,12 +799,11 @@
   }
   .testing-block .testing-container .first-testing-block .first-block-info .testing-button {
     max-width: 450px;
-    height: 48px;
     width: 100%;
   }
   .testing-block .testing-container .first-testing-block img {
-    max-width: 504px;
-    height: 480px;
+    max-width: 424px;
+    height: unset;
     padding-right: 0;
   }
   .testing-block .testing-container .second-testing-block {
@@ -822,13 +831,12 @@
   }
   .testing-block .testing-container .second-testing-block .second-block-info .sec-testing-button {
     max-width: 450px;
-    height: 48px;
     width: 100%;
   }
   .testing-block .testing-container .second-testing-block .testing-second-image {
-    max-width: 504px;
-    height: 480px;
-    padding-left: 0;
+    max-width: 424px;
+    height: unset;
+    padding: 0;
   }
 
   .footer .footer-container .footer-link {
@@ -838,12 +846,12 @@
 @media screen and (max-width: 616px) {
   .header .header-container {
     max-width: 570px;
+    padding: 0 20px;
   }
   .header .header-container .navbar {
     padding-bottom: 62px;
   }
   .header .header-container .header-information {
-    padding-left: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -862,10 +870,22 @@
   }
   .header .header-container .header-information .information-register-block {
     padding-bottom: 84px;
+    max-width: 335px;
+    width: 100%;
+  }
+  .header .header-container .header-information .information-register-block .information-input {
+    width: 100%;
+    max-width: 320px;
+    padding: 23px 0 23px 15px;
+  }
+  .header .header-container .header-information .information-register-block .information-button {
+    right: 0;
+    top: 4px;
   }
 
   .main-block .main-services .service-container {
     max-width: 570px;
+    padding: 0 20px;
   }
   .main-block .main-services .service-container .service-info-block .service-text {
     font-size: 24px;
@@ -886,6 +906,7 @@
 
   .main-company-proposals .proposals-image .proposals-container {
     max-width: 570px;
+    padding: 0 20px;
   }
   .main-company-proposals .proposals-image .proposals-container .proposals-text {
     font-size: 36px;
@@ -912,6 +933,10 @@
   }
   .testing-block .testing-container {
     max-width: 570px;
+    padding: 0 20px;
+  }
+  .testing-block .testing-container .first-testing-block .first-block-info {
+    padding: 0;
   }
   .testing-block .testing-container .first-testing-block .first-block-info .testing-info-text {
     max-width: 335px;
@@ -949,11 +974,12 @@
   .testing-block .testing-container .second-testing-block .testing-second-image {
     max-width: 335px;
     height: 312px;
-    padding-left: 0;
+    padding: 0;
   }
 
   .main-links .links-container {
     max-width: 570px;
+    padding: 0 20px 20px 20px;
   }
   .main-links .links-container .link-text {
     font-size: 36px;

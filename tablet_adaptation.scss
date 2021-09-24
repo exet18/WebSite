@@ -69,7 +69,8 @@ $container-width: 916px;
           }
 
           .information-button {
-            left: 277px;
+            left: 280px;
+            top: 8px;
           }
         }
       }
@@ -102,6 +103,7 @@ $container-width: 916px;
 
       .proposals-container {
         max-width: 1004px;
+        padding-bottom: 50px;
 
         .proposals-text {
           padding-top: 38px;
@@ -164,6 +166,8 @@ $container-width: 916px;
       }
 
       .second-testing-block {
+        padding-bottom: 120px;
+
         .second-block-info {
           .sec-testing-info-text {
             max-width: 424px;
@@ -361,6 +365,7 @@ $container-width: 916px;
           flex-direction: column;
           align-items: center;
           order: 2;
+          padding-right: unset;
 
           .testing-info-text {
             padding-top: 30px;
@@ -379,14 +384,13 @@ $container-width: 916px;
 
           .testing-button {
             max-width: 450px;
-            height: 48px;
             width: 100%;
           }
         }
 
         img {
-          max-width: 504px;
-          height: 480px;
+          max-width: 424px;
+          height: unset;
           padding-right: 0;
         }
       }
@@ -418,15 +422,14 @@ $container-width: 916px;
 
           .sec-testing-button {
             max-width: 450px;
-            height: 48px;
             width: 100%;
           }
         }
 
         .testing-second-image {
-          max-width: 504px;
-          height: 480px;
-          padding-left: 0;
+          max-width: 424px;
+          height: unset;
+          padding: 0;
         }
       }
     }

@@ -55,5 +55,8 @@
   align-items: center;
   padding-right: 50px;
 }
+.footer .footer-container .copyright-social-links .social-links a {
+  padding-right: 20px;
+}
 
 /*# sourceMappingURL=footer.css.map */

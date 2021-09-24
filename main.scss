@@ -1,23 +1,27 @@
-@mixin standard-container($width: 1256px){
+@mixin standard-container($width: 1256px) {
   max-width: $width;
   margin: 0 auto;
   width: 100%;
 }
-%ball-standard{
+
+%ball-standard {
   position: absolute;
   width: 45px;
   height: 45px;
 }
-.main-services{
-  .service-container{
+
+.main-services {
+  .service-container {
     @include standard-container();
     padding: 0 30px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    .service-info-block{
+
+    .service-info-block {
       max-width: 994px;
-      .service-text{
+
+      .service-text {
         font-weight: 800;
         font-size: 36px;
         text-align: center;
@@ -25,7 +29,8 @@
         padding-bottom: 30px;
         line-height: 49px;
       }
-      .service-information{
+
+      .service-information {
         font-size: 24px;
         font-weight: 400;
         padding-bottom: 90px;
@@ -33,59 +38,71 @@
         line-height: 39px;
       }
     }
-    .service-wrapper{
+
+    .service-wrapper {
       width: 100%;
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       padding-bottom: 80px;
-      .service-block{
+
+      .service-block {
         display: flex;
         flex-direction: column;
         align-items: center;
         padding-bottom: 83px;
-        .block-image{
+
+        .block-image {
           padding-bottom: 19px;
-          .block-figure{
+
+          .block-figure {
             position: relative;
             width: 76px;
             height: 76px;
           }
-          .pink-ball{
+
+          .pink-ball {
             @extend %ball-standard;
             margin-left: 36px;
           }
-          .purple-ball{
+
+          .purple-ball {
             @extend %ball-standard;
             margin-left: -10px;
             margin-top: 6px;
           }
-          .aqua-ball{
+
+          .aqua-ball {
             @extend %ball-standard;
             margin-top: 5px;
             margin-left: 45px;
           }
-          .blue-ball{
+
+          .blue-ball {
             @extend %ball-standard;
             margin-top: 5px;
           }
-          .red-ball{
+
+          .red-ball {
             @extend %ball-standard;
             margin-left: 38px;
             margin-top: -2px;
           }
-          .yellow-ball{
+
+          .yellow-ball {
             @extend %ball-standard;
             margin-left: 20px;
             margin-top: -8px;
           }
         }
-        .service-block-text{
+
+        .service-block-text {
           font-weight: 800;
           font-size: 24px;
           padding-bottom: 10px;
           line-height: 33px;
         }
-        .service-block-information{
+
+        .service-block-information {
           text-align: center;
           max-width: 298px;
           font-size: 18px;
@@ -96,16 +113,20 @@
     }
   }
 }
-.main-company-proposals{
+
+.main-company-proposals {
   background: url("./source/main-image/background-prop.png") center center;
   background-size: cover;
-  .proposals-image{
+
+  .proposals-image {
     background: #F84646;
     mix-blend-mode: lighten;
-    .proposals-container{
+
+    .proposals-container {
       @include standard-container();
-      padding: 0 30px;
-      .proposals-text{
+      padding: 0 30px 50px 30px;
+
+      .proposals-text {
         text-align: center;
         padding-top: 68px;
         padding-bottom: 10px;
@@ -115,50 +136,60 @@
         color: #FFFFFF;
         font-feature-settings: 'liga' off;
       }
-      .proposals-information{
+
+      .proposals-information {
         text-align: center;
         color: #FFFFFF;
         font-size: 18px;
         line-height: 32px;
         font-weight: 400;
       }
-      .proposals-list{
+
+      .proposals-list {
         padding-top: 60px;
-        .section-list{
+
+        .section-list {
           display: flex;
           justify-content: space-between;
-          div{
+
+          div {
             display: flex;
             align-items: center;
-            p{
+
+            p {
               box-sizing: unset;
               font-size: 18px;
               line-height: 31px;
               font-feature-settings: 'liga' off;
               color: #FFFFFF;
             }
-            img{
+
+            img {
               padding-left: 55px;
             }
           }
-          .first-list-block{
-            p{
+
+          .first-list-block {
+            p {
               max-width: 146px;
               width: 100%;
             }
           }
-          .second-list-block{
-            p{
+
+          .second-list-block {
+            p {
               max-width: 199px;
             }
           }
-          .third-list-block{
-            p{
+
+          .third-list-block {
+            p {
               max-width: 181px;
             }
           }
-          .fourth-list-block{
-            p{
+
+          .fourth-list-block {
+            p {
               max-width: 182px;
             }
           }
@@ -168,28 +199,34 @@
   }
 }
 
-.testing-block{
+.testing-block {
   padding-top: 160px;
-  .testing-container{
+
+  .testing-container {
     @include standard-container();
     padding: 0 30px;
-    .first-testing-block{
+
+    .first-testing-block {
       display: flex;
       justify-content: space-between;
-      img{
+
+      img {
         max-width: 504px;
       }
-      .first-block-info{
+
+      .first-block-info {
         max-width: 608px;
         padding-right: 30px;
-        .testing-info-text{
+
+        .testing-info-text {
           font-size: 64px;
           line-height: 76px;
           color: #2E2E2E;
           max-width: 608px;
           padding-bottom: 40px;
         }
-        .testing-more-info{
+
+        .testing-more-info {
           font-size: 16px;
           line-height: 32px;
           color: #808080;
@@ -197,10 +234,11 @@
           padding-bottom: 80px;
           margin: 0;
         }
-        .testing-button{
+
+        .testing-button {
           max-width: 160px;
-          padding: 0 59px;
-          height: 48px;
+          width: 100%;
+          padding: 11px 0;
           border: none;
           font-weight: 600;
           font-size: 14px;
@@ -211,20 +249,24 @@
         }
       }
     }
-    .second-testing-block{
+
+    .second-testing-block {
       padding-top: 120px;
       padding-bottom: 160px;
       display: flex;
       justify-content: space-between;
-      .testing-second-image{
+
+      .testing-second-image {
         display: none;
       }
-      .testing-first-image{
+
+      .testing-first-image {
         max-width: 504px;
         padding-right: 30px;
       }
-      .second-block-info{
-        .sec-testing-info-text{
+
+      .second-block-info {
+        .sec-testing-info-text {
           font-size: 64px;
           line-height: 76px;
           color: #2E2E2E;
@@ -232,7 +274,8 @@
           padding-bottom: 40px;
           margin: 0;
         }
-        .sec-testing-more-info{
+
+        .sec-testing-more-info {
           font-size: 16px;
           line-height: 32px;
           color: #808080;
@@ -240,9 +283,11 @@
           padding-bottom: 80px;
           margin: 0;
         }
-        .sec-testing-button{
-          width: 160px;
-          height: 48px;
+
+        .sec-testing-button {
+          max-width: 160px;
+          width: 100%;
+          padding: 11px 0;
           border: none;
           font-weight: 600;
           font-size: 14px;
@@ -255,12 +300,15 @@
     }
   }
 }
-.main-links{
+
+.main-links {
   background-color: #F4F5F7;
-  .links-container{
+
+  .links-container {
     @include standard-container();
     padding: 35px 30px;
-    .link-text{
+
+    .link-text {
       padding-top: 24px;
       font-weight: 800;
       font-size: 48px;
@@ -269,7 +317,8 @@
       font-feature-settings: 'salt' on, 'liga' off;
       color: #18191F;
     }
-    .link-disc{
+
+    .link-disc {
       font-weight: 500;
       font-size: 18px;
       line-height: 32px;
@@ -278,13 +327,16 @@
       color: #18191F;
       padding-bottom: 48px;
     }
-    .link-cards{
+
+    .link-cards {
       display: flex;
       align-items: center;
       justify-content: center;
+
       div {
         display: block;
-        .card{
+
+        .card {
           margin-bottom: 24px;
           margin-right: 72px;
           max-width: 170px;
@@ -296,7 +348,8 @@
           display: flex;
           align-items: center;
           justify-content: center;
-          p{
+
+          p {
             font-weight: 600;
             font-size: 16px;
             line-height: 32px;
@@ -308,30 +361,36 @@
     }
   }
 }
-.main-contact-us{
-  .contact-us-container{
+
+.main-contact-us {
+  .contact-us-container {
     @include standard-container();
     padding: 0 30px;
-    .users-block{
+
+    .users-block {
       padding-top: 160px;
       padding-bottom: 37px;
       display: flex;
       justify-content: center;
-      .contact-ball{
+
+      .contact-ball {
         position: absolute;
         margin-left: 23px;
         margin-top: 7px;
       }
-      .users{
+
+      .users {
         position: relative;
       }
     }
-    .contact-us-info{
+
+    .contact-us-info {
       display: flex;
       flex-direction: column;
       align-items: center;
       padding-bottom: 160px;
-      .contact-us-text{
+
+      .contact-us-text {
         font-weight: 800;
         font-size: 48px;
         line-height: 32px;
@@ -339,7 +398,8 @@
         color: #000000;
         padding-bottom: 20px;
       }
-      .contact-us-more{
+
+      .contact-us-more {
         font-weight: 500;
         font-size: 18px;
         line-height: 32px;
@@ -347,7 +407,8 @@
         color: #000000;
         padding-bottom: 30px;
       }
-      .contact-us-button{
+
+      .contact-us-button {
         max-width: 204px;
         width: 100%;
         padding: 25px 0;
